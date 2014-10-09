@@ -1,0 +1,17 @@
+How to setup a git workspace
+1. create the folder under the ~/git directory
+2. cd to that new folder
+3. git init to initialize the repo
+4. 'git add .' to add all files in folder to the repo
+
+How to commit
+1. git commit
+2. -m: signifies a commit message
+3. -a: says to commit everything (only do this the first time!)
+4. specify filename to commit (if not -a)
+
+How to send something to a new repo
+1. git remote add origin https://github.com/ahawx99/REPO.git
+2. git push -u origin master (will send to the master branch)
+
+
